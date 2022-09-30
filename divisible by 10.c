@@ -1,11 +1,13 @@
-//Divisible by 10 or not//
+//Divisible by n or not//
 #include<stdio.h>
 int main()
 {
-	int n;
+	int m,n;
+	printf("Enter any number to divide:");
+	scanf("%d",&n);
 	printf("Enter any number:");
 	scanf("%d",&n);
-	if(n%10==0)
+	if(m%n==0)
 	{
 		printf("\n Number is divisible by 10");
 	}
